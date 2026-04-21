@@ -1,0 +1,14 @@
+{
+  "name": "triviarevamp",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run -ws build",
+    "dev:server": "npm --workspace @trivia/server run dev",
+    "dev:mobile": "npm --workspace @trivia/mobile run start",
+    "test": "npm --workspace @trivia/shared run test && npm --workspace @trivia/server run test"
+  }
+}

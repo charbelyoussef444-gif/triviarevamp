@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Trivia Revamp",
+    "slug": "triviarevamp",
+    "scheme": "triviarevamp",
+    "ios": {
+      "supportsTablet": false
+    },
+    "plugins": ["expo-router"]
+  }
+}
